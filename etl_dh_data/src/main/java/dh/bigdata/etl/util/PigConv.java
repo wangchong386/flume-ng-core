@@ -1,6 +1,5 @@
 package dh.bigdata.etl.util;
 
-import com.dhgate.event.DHEvent;
 
 import java.io.IOException;
 import java.util.UUID;
@@ -47,7 +46,7 @@ public class PigConv {
 		try {
 			String u = currentUrl;
 			if (u != null) {
-				if (u.matches("http[s]?://factory.dhgate.com.*")) {
+				if (u.matches("http[s]?://factory.mmmm.com.*")) {
 					site = "www";
 				} else if (u.matches("http[s]?://seller.dhgate.com.*") || u.matches("http[s]?://adcenter.dhgate.com.*")
 						|| u.matches("http[s]?://policy.dhgate.com.*") || u.matches("http[s]?://elady.dhgate.com.*")
