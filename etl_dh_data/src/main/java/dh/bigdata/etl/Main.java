@@ -1,6 +1,6 @@
 package dh.bigdata.etl;
 
-import com.dhgate.event.DHEvent;
+
 import dh.bigdata.etl.sparkstreaming.*;
 import dh.bigdata.etl.util.ConfUtil;
 import dh.bigdata.etl.util.Contant;
