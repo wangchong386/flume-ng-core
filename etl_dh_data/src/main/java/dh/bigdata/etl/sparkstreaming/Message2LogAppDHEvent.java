@@ -1,6 +1,5 @@
 package dh.bigdata.etl.sparkstreaming;
-
-import com.dhgate.event.DHEvent;
+`
 import kafka.message.MessageAndMetadata;
 import org.apache.avro.io.BinaryDecoder;
 import org.apache.avro.io.DatumReader;
