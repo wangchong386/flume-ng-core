@@ -1,6 +1,5 @@
 package dh.bigdata.etl.sparkstreaming;
 
-import com.dhgate.event.DHEvent;
 import dh.bigdata.etl.util.PigConv;
 import org.apache.spark.api.java.function.Function;
 import org.apache.spark.sql.Row;
